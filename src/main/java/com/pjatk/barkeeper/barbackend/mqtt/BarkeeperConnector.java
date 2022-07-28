@@ -24,8 +24,8 @@ public class BarkeeperConnector {
 
     public MqttClient makeConnection() throws MqttException, IOException {
 
-        String username = "sjnxrivd";
-        String password = "FGbW4apCsMXN";
+        String username = "********";
+        String password = "********";
         String serverUri = "tcp://farmer.cloudmqtt.com:11538";
         String clientId = "SpringServer";
 
